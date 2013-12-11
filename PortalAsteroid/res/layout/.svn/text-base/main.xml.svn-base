@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+<TextView
+	android:text="@string/app_name"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="50sp"
+    android:textStyle="bold"
+    android:textColor="#FFFFFF"
+    android:hint="10sp"
+    android:gravity="center_vertical|center_horizontal" 
+    android:layout_gravity="center_vertical|center_horizontal"></TextView>
+<Button
+	android:id="@+id/startButton"
+	android:text="@string/start_game"
+	android:textSize="20sp"
+	android:height="30sp"
+	android:width="150sp"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_vertical|center_horizontal" 
+	android:textStyle="bold"></Button>
+
+<Button
+	android:id="@+id/settingsButton"
+	android:text="@string/preferences"
+	android:textSize="20sp"
+	android:height="30sp"
+	android:width="150sp"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_vertical|center_horizontal" 
+	android:textStyle="bold"></Button>
+<Button
+	android:id="@+id/highscoreButton"
+	android:text="@string/highscore"
+	android:textSize="20sp"
+	android:height="30sp"
+	android:width="150sp"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_vertical|center_horizontal" 
+	android:textStyle="bold"></Button>
+
+<Button 
+	android:id="@+id/infoButton"
+	android:text="@string/about"
+	android:textSize="20sp"
+	android:height="30sp"
+	android:width="150sp"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_vertical|center_horizontal" 
+	android:textStyle="bold"></Button>
+</LinearLayout>

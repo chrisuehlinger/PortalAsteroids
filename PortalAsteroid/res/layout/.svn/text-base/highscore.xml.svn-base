@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+
+<TextView
+    android:id="@+id/highscore_title"
+    android:text="@string/highscore_title"
+	android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:textStyle="bold"
+    android:textSize="40sp" 
+    android:gravity="center_vertical|center_horizontal" 
+    android:layout_gravity="center_vertical|center_horizontal"></TextView>
+
+<TextView 
+    android:text=""
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:textStyle="bold"
+    android:textSize="20sp"></TextView>
+    
+<TextView
+    android:id="@+id/highscore_overall"
+    android:text="@string/highscore_overall"
+	android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:textStyle="bold"
+    android:textSize="20sp" 
+    android:gravity="center_vertical|center_horizontal" 
+    android:layout_gravity="center_vertical|center_horizontal" android:editable="true"></TextView>
+    
+<TextView 
+    android:text=""
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:textStyle="bold"
+    android:textSize="20sp"></TextView>
+
+<TextView
+    android:id="@+id/highscore_consecutive"
+    android:text="@string/highscore_consecutive"
+	android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:gravity="center_vertical|center_horizontal" 
+    android:layout_gravity="center_vertical|center_horizontal" android:editable="true"></TextView>
+</LinearLayout>
